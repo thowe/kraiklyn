@@ -1,7 +1,11 @@
+{{ $hdepth := 1 }}
+{{ if .Params.hdepth }}
+    {{ $hdepth = .Params.hdepth }}
+{{ end }}
 <section class="page" id="{{ .Params.anchor }}">
-    <h1>
+    <h{{ $hdepth }}>
         <a href="#{{ .Params.anchor }}">{{ .Title }}</a>
-    </h1>
+    </h{{ $hdepth }}>
     <div class="content">
         {{ .Content }}
     </div>

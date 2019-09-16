@@ -35,7 +35,7 @@ html, body {
   overflow: auto;
   text-align: center;
   padding: 1rem 1rem;
-  color: white;
+  color: #333;
   background-color: #363636;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@ html, body {
   background-color: #5378B0;
 }
 .sidebar.sidebar-grey {
-  background-color: #959492;
+  background-color: #DDD;
 }
 .sidebar.sidebar-orange {
   background-color: #DAA35C;
@@ -83,14 +83,13 @@ html, body {
 }
 
 .sidebar a,
-.sidebar a:hover,
 .sidebar a:visited {
   text-decoration: none;
-  color: white;
+  color: #333;
 }
 
 .sidebar a:hover {
-  color: rgb(223, 223, 223);;
+  color: #5399B0;
 }
 
 .sidebar ul {
